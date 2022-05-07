@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blauhaus.Email.Abstractions", "Blauhaus.Email.Abstractions\Blauhaus.Email.Abstractions.csproj", "{71B23C5E-D495-42E3-8DFE-23906325D200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blauhaus.Email.Abstractions", "Blauhaus.Email.Server.Abstractions\Blauhaus.Email.Abstractions.csproj", "{71B23C5E-D495-42E3-8DFE-23906325D200}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blauhaus.Email.SendGrid", "Blauhaus.Email.SendGrid\Blauhaus.Email.SendGrid.csproj", "{8958EC77-C7CD-4860-8406-13D79C371AF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blauhaus.Email.SendGrid", "Blauhaus.Email.Server.SendGrid\Blauhaus.Email.SendGrid.csproj", "{8958EC77-C7CD-4860-8406-13D79C371AF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69BA2B47-CF5F-43EC-9901-DD9BE16D76B9}"
 	ProjectSection(SolutionItems) = preProject

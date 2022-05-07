@@ -17,11 +17,13 @@ jobs:
      - name: Build NuGet Package
        run: |
         dotnet build ./src/Blauhaus.Email.sln --configuration Release
-        dotnet pack ./src/Blauhaus.Email.Server.Abstractions/Blauhaus.Email.Server.Abstractions.csproj -p:PackageVersion=${VERSION_NAME} --no-build --output ./ --configuration Release 
-        dotnet pack ./src/Blauhaus.Email.Server.SendGrid/Blauhaus.Email.Server.SendGrid.csproj -p:PackageVersion=${VERSION_NAME} --no-build --output ./ --configuration Release 
+        dotnet pack ./src/Blauhaus.Email.Abstractions/Blauhaus.Email.Abstractions.csproj -p:PackageVersion=${VERSION_NAME} --no-build --output ./ --configuration Release 
+        dotnet pack ./src/Blauhaus.Email.SendGrid/Blauhaus.Email.SendGrid.csproj -p:PackageVersion=${VERSION_NAME} --no-build --output ./ --configuration Release 
         dotnet pack ./src/Blauhaus.Email.TestHelpers/Blauhaus.Email.TestHelpers.csproj -p:PackageVersion=${VERSION_NAME} --no-build --output ./ --configuration Release 
+        dotnet pack ./src/Blauhaus.Email.Common/Blauhaus.Email.Common.csproj -p:PackageVersion=${VERSION_NAME} --no-build --output ./ --configuration Release 
      - name: Deploy NuGet Package
        run:  |
-        dotnet nuget push /home/runner/work/Blauhaus.Email/Blauhaus.Email/Blauhaus.Email.Server.Abstractions.${VERSION_NAME}.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
-        dotnet nuget push /home/runner/work/Blauhaus.Email/Blauhaus.Email/Blauhaus.Email.Server.SendGrid.${VERSION_NAME}.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
+        dotnet nuget push /home/runner/work/Blauhaus.Email/Blauhaus.Email/Blauhaus.Email.Abstractions.${VERSION_NAME}.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
+        dotnet nuget push /home/runner/work/Blauhaus.Email/Blauhaus.Email/Blauhaus.Email.SendGrid.${VERSION_NAME}.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
         dotnet nuget push /home/runner/work/Blauhaus.Email/Blauhaus.Email/Blauhaus.Email.TestHelpers.${VERSION_NAME}.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
+        dotnet nuget push /home/runner/work/Blauhaus.Email/Blauhaus.Email/Blauhaus.Email.Common.${VERSION_NAME}.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json

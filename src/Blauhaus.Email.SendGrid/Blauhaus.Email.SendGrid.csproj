@@ -19,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Blauhaus.Email.Server.Abstractions\Blauhaus.Email.Server.Abstractions.csproj" />
+      <ProjectReference Include="..\Blauhaus.Email.Common\Blauhaus.Email.Common.csproj" />
     </ItemGroup>
 
 </Project>
