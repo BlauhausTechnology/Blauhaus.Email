@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blauhaus.Email.Server.Abstr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blauhaus.Email.Server.SendGrid", "Blauhaus.Email.Server.SendGrid\Blauhaus.Email.Server.SendGrid.csproj", "{8958EC77-C7CD-4860-8406-13D79C371AF5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69BA2B47-CF5F-43EC-9901-DD9BE16D76B9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\blauhaus.yml = .github\workflows\blauhaus.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
