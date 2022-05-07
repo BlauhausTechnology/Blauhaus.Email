@@ -1,4 +1,5 @@
 ﻿using Blauhaus.Email.Server.Abstractions;
+using Blauhaus.Email.Server.Abstractions.Dispatcher;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Blauhaus.Email.Server.SendGrid.Ioc;

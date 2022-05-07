@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="MockBuilders\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blauhaus.Analytics.TestHelpers" Version="1.8.40" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blauhaus.Email.Server.Abstractions\Blauhaus.Email.Server.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>

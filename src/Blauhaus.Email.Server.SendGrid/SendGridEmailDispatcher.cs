@@ -50,6 +50,7 @@ public class SendGridEmailDispatcher : IEmailDispatcher
             return _logger.LogErrorResponse(Error.Generic("Email dispatch failed: " + response.StatusCode));
         }
 
+        _logger.LogInformation("Email sent: {EmailSubject}", command.Subject);
         return Response.Success();
     }
 }
