@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Blauhaus.Responses" Version="0.4.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EmailBuilder\" />
+  </ItemGroup>
+
 </Project>

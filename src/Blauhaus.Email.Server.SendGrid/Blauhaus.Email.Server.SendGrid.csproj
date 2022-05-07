@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include=".Ioc\SendGridOptions.cs" />
+    <Compile Include=".Ioc\ServiceCollectionExtensions.cs" />
+  </ItemGroup>
+
+    <ItemGroup>
+	    <PackageReference Include="Blauhaus.Analytics.Abstractions" Version="1.8.40" />
+	    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+	    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+	    <PackageReference Include="Sendgrid" Version="9.27.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Blauhaus.Email.Server.Abstractions\Blauhaus.Email.Server.Abstractions.csproj" />
+    </ItemGroup>
+
 </Project>
