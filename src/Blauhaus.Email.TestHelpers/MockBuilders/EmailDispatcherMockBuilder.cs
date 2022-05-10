@@ -1,4 +1,4 @@
-﻿using Blauhaus.Email.Server.Abstractions.Dispatcher;
+﻿using Blauhaus.Email.Abstractions.Dispatcher;
 using Blauhaus.TestHelpers.MockBuilders;
 
 namespace Blauhaus.Email.TestHelpers.MockBuilders;

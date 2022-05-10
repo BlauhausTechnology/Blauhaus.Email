@@ -1,17 +1,15 @@
 ﻿using Blauhaus.Analytics.Abstractions;
 using Blauhaus.Analytics.Abstractions.Extensions;
-using Blauhaus.Email.Server.Abstractions;
-using Blauhaus.Email.Server.Abstractions.Dispatcher;
-using Blauhaus.Email.Server.SendGrid.Ioc;
+using Blauhaus.Email.Abstractions.Dispatcher;
+using Blauhaus.Email.SendGrid.Ioc;
 using Blauhaus.Errors;
-using Blauhaus.Responses;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 using Response = Blauhaus.Responses.Response;
 
-namespace Blauhaus.Email.Server.SendGrid;
+namespace Blauhaus.Email.SendGrid;
 
 public class SendGridEmailDispatcher : IEmailDispatcher
 {

@@ -1,4 +1,4 @@
-﻿namespace Blauhaus.Email.Server.Abstractions.Validators;
+﻿namespace Blauhaus.Email.Abstractions.Validators;
 
 public interface IEmailValidator
 {

@@ -1,4 +1,4 @@
-﻿namespace Blauhaus.Email.Server.Abstractions.EmailBuilder
+﻿namespace Blauhaus.Email.Common.Builder
 {
     public class SimpleEmailBuilder : BaseEmailBuilder
     {

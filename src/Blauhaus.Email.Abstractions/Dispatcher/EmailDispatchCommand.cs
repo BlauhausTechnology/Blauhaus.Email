@@ -1,4 +1,4 @@
-﻿namespace Blauhaus.Email.Server.Abstractions.Dispatcher;
+﻿namespace Blauhaus.Email.Abstractions.Dispatcher;
 
 public class EmailDispatchCommand
 {

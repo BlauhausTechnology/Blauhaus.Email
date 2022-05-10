@@ -1,6 +1,6 @@
 ﻿using Blauhaus.Responses;
 
-namespace Blauhaus.Email.Server.Abstractions.Dispatcher;
+namespace Blauhaus.Email.Abstractions.Dispatcher;
 
 public interface IEmailDispatcher
 {

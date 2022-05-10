@@ -1,8 +1,8 @@
-﻿using Blauhaus.Email.Server.Abstractions;
-using Blauhaus.Email.Server.Abstractions.Dispatcher;
+﻿using Blauhaus.Email.Abstractions.Dispatcher;
+using Blauhaus.Email.Abstractions.EmailBuilder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Blauhaus.Email.Server.SendGrid.Ioc;
+namespace Blauhaus.Email.SendGrid.Ioc;
 
 public static class ServiceCollectionExtensions
 {
@@ -12,4 +12,6 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IEmailDispatcher, SendGridEmailDispatcher>();
         return services;
     }
+     
+
 }
