@@ -1,5 +1,5 @@
 ﻿using Blauhaus.Email.Abstractions.EmailBuilder;
-using Blauhaus.Email.Common.Builder;
+using Blauhaus.Email.Common.Builders;
 
 namespace Blauhaus.Email.Common.Resolvers;
 

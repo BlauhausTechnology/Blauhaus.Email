@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Blauhaus.Email.Abstractions.EmailBuilder;
 
-namespace Blauhaus.Email.Common.Builder
+namespace Blauhaus.Email.Common.Builders
 {
     public abstract class BaseEmailBuilder : IEmailBuilder
     {
