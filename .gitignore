@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+src/.idea/.idea.Blauhaus.Email/.idea/.name
+src/.idea/.idea.Blauhaus.Email/.idea/indexLayout.xml
+src/.idea/.idea.Blauhaus.Email/.idea/misc.xml
+src/.idea/.idea.Blauhaus.Email/.idea/vcs.xml
