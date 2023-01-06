@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Blauhaus.Responses" Version="0.4.6" />
+		<PackageReference Include="Blauhaus.Responses" Version="0.4.11" />
 	</ItemGroup>
 
 	<ItemGroup>
