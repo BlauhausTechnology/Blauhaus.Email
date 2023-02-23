@@ -12,9 +12,9 @@
   </ItemGroup>
 
     <ItemGroup>
-	    <PackageReference Include="Blauhaus.Analytics.Abstractions" Version="2.0.2" />
+	    <PackageReference Include="Blauhaus.Analytics.Abstractions" Version="2.0.7" />
 	    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
-	    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0" />
+	    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
 	    <PackageReference Include="Sendgrid" Version="9.28.1" />
     </ItemGroup>
 
